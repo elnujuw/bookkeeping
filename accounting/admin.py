@@ -9,7 +9,7 @@ class BookkeepingRecordAdmin(admin.ModelAdmin):
     ordering = ['id']
 
 class ApiKeyAdmin(admin.ModelAdmin):
-    list_display = ['id', 'user', 'key']
+    list_display = ['id', 'user', 'key_hash']
     ordering = ['id']
 
 
